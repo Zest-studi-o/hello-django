@@ -32,8 +32,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY','')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-zeststudio-hellodjango-aw8m26fonam.ws-eu105.gitpod.io',
-    'edrfsw-django-todo-app.herokuapp.com'
+    #'8000-zeststudio-hellodjango-aw8m26fonam.ws-eu105.gitpod.io',
+    #'edrfsw-django-todo-app.herokuapp.com'
+    os.environ.get('HEROKU_HOSTNAME')
     ]
 
 
