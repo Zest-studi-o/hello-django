@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-zeststudio-hellodjango-aw8m26fonam.ws-eu105.gitpod.io',
-    'edrfsw-django-todo-app.herokuapp.com'
+    'os.environ.get('edrfsw-django-todo-app.herokuapp.com')
     ]
 
 
