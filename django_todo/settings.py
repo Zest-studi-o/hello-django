@@ -30,8 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY','')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = development
-DEBUG = True
+DEBUG = development
+#DEBUG = True
 
 ALLOWED_HOSTS = [
     #'8000-zeststudio-hellodjango-aw8m26fonam.ws-eu105.gitpod.io',
